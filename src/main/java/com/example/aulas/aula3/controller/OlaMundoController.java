@@ -54,9 +54,9 @@ public class OlaMundoController {
         return "Buscando por: " + nome;
     }
 
-    @GetMapping("/tarefa")
+    /*@GetMapping("/tarefa")
     public Tarefa umaTarefa() {
         return new Tarefa(1L, "Estudar Spring", false);
-    }
+    }*/
 }
 
